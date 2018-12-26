@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">QuickLib</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Welcome to QuickLib</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="issued_book_nav">Books Issued</string>
+    <string name="search_books_here">Search Books here</string>
+    <string name="quicklib_search">QuickLib Search</string>
+    <string name="search_by">Search preference</string>
+    <string name="search_according_to">Search according to book title or author in our Library anywhere anytime.
+    Just select your preference enter keyword and hit search button.</string>
+    <string name="my_profile_nav">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="notification">notification</string>
+    <string name="welcome">Welcome</string>
+    <string name="a_smart_library">A smart Library</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="new_user">New user? Register</string>
+    <string name="start_terms">I agree Terms of Service and Privacy Policy.</string>
+    <string name="register_to_quicklib">Register to QuickLib</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="password_min_length_8">Password min length 8</string>
+    <string name="fullname">Enter Fullname</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_now">Register Now</string>
+    <string name="search_result">Search Result</string>
+    <string name="no_result_found">No Result Found.</string>
+    <string name="book_details">Book Details</string>
+    <string name="issue_book">Issue Book</string>
+    <string name="fine_details">Cost details: Free for one week for students and 15 days for Faculty after issue date. After free period Rs.10 per day.</string>
+    <string name="update_details">Update details</string>
+    <string name="issued_book">Issued Book</string>
+    <string name="quicklib_all_books">QuickLib All Books</string>
+    <string name="notification1">Notification</string>
+    <string name="return_book">Books Return</string>
+    <string name="fine_calculator">Fine Details</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="quicklib_all_books1">QuickLib all books</string>
+    <string name="feedback_for_quicklib">Feedback for QuickLib</string>
+    <string name="please_enter_here">Please enter here</string>
+    <string name="submit_feedback">Submit feedback</string>
+    <string name="fine_calculators">Fine Calculator</string>
+    <string name="total">Total:</string>
+    <string name="_100_00">000.00</string>
+    <string name="no_fine_available">No Fine available.</string>
+    <string name="review_book">Review Book</string>
+    <string name="no_review_available">No review available</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="reviews">Reviews</string>
+    <string-array name="countries_array">
+        <item>cse semester</item>
+        <item>mechanical semester</item>
+        <item>civil semester</item>
+        <item>programming</item>
+        <item>semester 1</item>
+        <item>semester 2</item>
+        <item>semester 3</item>
+        <item>semester 4</item>
+        <item>semester 5</item>
+        <item>semester 6</item>
+        <item>semester 7</item>
+        <item>semester 8</item>
+        <item>b. tech</item>
+    </string-array>
+</resources>

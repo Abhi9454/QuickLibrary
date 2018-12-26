@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/issued_book_nav" />
+
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/returnbook"
+            android:title="@string/return_book" />
+
+        <item
+            android:id="@+id/nav_fine"
+            android:icon="@drawable/fine"
+            android:title="@string/fine_calculator" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/my_profile_nav" />
+
+        <item
+            android:id="@+id/nav_allbooks"
+            android:icon="@drawable/books"
+            android:title="@string/quicklib_all_books1" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/logout" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/feedback" />
+
+    </group>
+
+</menu>
