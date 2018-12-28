@@ -51,7 +51,7 @@ public class viewbook extends AppCompatActivity {
     private RelativeLayout detailprog;
     private SimpleDateFormat dateFormat,dateFormat1;
     private NotificationManager manager;
-    private int p,po=0;
+    private int ps=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -232,11 +232,13 @@ public class viewbook extends AppCompatActivity {
             Log.i("fine is","diff "+daysdiff);
             if(daysdiff >= 1)
             {
-                p=(((int) daysdiff))*10;
-                Log.i("fine is","fine"+p);
+                ps=(((int) daysdiff))*10;
+                Log.i("fine is","fine"+ps);
             }
+            bookfine.setVisibility(View.VISIBLE);
+            bookfine.setText("Fine :"+ ps);
             final AlertDialog.Builder builder = new AlertDialog.Builder(viewbook.this);
-            builder.setMessage("Your Fine for this book is Rs. "+p).setTitle("Fine Alert");
+            builder.setMessage("Your Fine for this book is Rs. "+ps).setTitle("Fine Alert");
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -245,8 +247,6 @@ public class viewbook extends AppCompatActivity {
             });
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
-            bookfine.setVisibility(View.VISIBLE);
-            bookfine.setText("Fine :"+ p);
         }
     }
 
