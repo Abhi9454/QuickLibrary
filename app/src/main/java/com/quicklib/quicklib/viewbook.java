@@ -236,7 +236,7 @@ public class viewbook extends AppCompatActivity {
                 Log.i("fine is","fine"+ps);
             }
             bookfine.setVisibility(View.VISIBLE);
-            bookfine.setText("Fine :"+ ps);
+            bookfine.setText("Fine value is :"+ ps);
             final AlertDialog.Builder builder = new AlertDialog.Builder(viewbook.this);
             builder.setMessage("Your Fine for this book is Rs. "+ps).setTitle("Fine Alert");
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
